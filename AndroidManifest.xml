@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- manifest define la estructura de la aplicación.
+
+package='com.asaludo'
+  paquete de la aplicación. Es donde se crea la clase R. De preferencia
+  las clases de la aplicación también deben colocarse en este paquete.
+  Debe llevar al menos una vez el caracter punto.
+  
+android:versionCode='1'
+  Número de versión de la aplicación.
+  
+android:versionName='1.0'
+  Nombre de la versión que corresponde al versionCode. -->
+<manifest
+  xmlns:android='http://schemas.android.com/apk/res/android'
+  package='com.amens'
+  android:versionCode='1'
+  android:versionName='1.0'>
+  <!-- Descripción de la aplicación.
+  
+  android:label='@string/app_name'
+    Título de la aplicación. Aparece junto con el ícono en la página de
+    aplicaciones. Se toma del archivo "strings.xml"; en él está la
+    definición <string name="app_name">Test</string>. El nombre de la
+    definición es app_name y el valor es Test. Al sustituir el valor en la
+    declaración, se obtiene android:label="Test". Por lo tanto, el texto
+    que aparece junto al ícono en la página de aplicaciones es Test. -->
+  <application
+    android:label='@string/app_name'>
+    <!-- Define una activity. Todas las actividades de la aplicación deben
+    declararse en este archivo para poder usarlas.
+
+    android:name='.MainActivity'
+      El nombre de la aplicación de este element es MainActivity y está
+      localizada en el paquete de la aplicación, lo cual significa que se
+      llama com.test.MainActivity. -->
+    <activity android:name='.MainActivity'>
+      <intent-filter>
+        <!-- Los 2 element que siguen indican que al iniciar la aplicación
+        se utiliza una instancia de esta actividad. -->
+        <category android:name='android.intent.category.LAUNCHER'/>
+        <action android:name='android.intent.action.MAIN'/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout es un ViewGroup que coloca los componentes en línea, uno
+tras otro.
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    declara el espacio de nombres android. La url define una combinación
+    de etiquetas y atributos.
+
+  android:layout_width="match_parent"
+    Usa todo el espacio horizontal que le permite su ViewGroup padre.
+    
+  android:layout_height="match_parent"
+    Usa todo el espacio vertical que le permite su ViewGroup padre.
+    
+  android:orientation="vertical"
+    Los widget en su interior se colocan verticalmente, de arriba hacia
+    abajo.
+    
+  android:gravity="center"
+    Las View que contiene se centran vertical y horizontalmente. -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center">
+  <!-- View para mostrar texto. Corresponde a una etiqueta.
+  android:layout_width="wrap_content"
+    Usa solo el espacio horizontal necesario para mostrar su contenido.
+
+    android:layout_height="wrap_content"
+    Usa solo el espacio vertical necesario para mostrar su contenido.
+    
+  android:text="@string/hola"
+    Muestra el texto que es el contenido de un element que dice
+    <string name="hola"> y está dentro de un element resources en alguno de
+    los archivos de la carpeta values. En este caso muestra Hola. -->
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/hola" />
+</LinearLayout>

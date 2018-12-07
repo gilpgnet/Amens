@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- La primera línea se conoce como prólogo e indica que el archivo usa
+el formato xml.
+
+version="1.0"
+  indica que se usa la versión “1.0” de xml.
+
+encoding="utf-8"
+  indica que la codificación del archivo es “UTF-8”, aunque también puede
+  indicarse windows-1252 o iso-8859-1, etc. Para más información sobre los
+  formatos UTF y el manejo de idiomas, revisa http://unicode.org/. Cuando
+  un archivo xml no tiene prólogo, se entiende que usa version="1.0" y
+  encoding="utf-8". -->
+<!-- Todos los archivos de la carpeta values empiezan con el element
+resources -->
+<resources>
+  <!-- Definición de un texto dentro de la aplicación.
+  
+  name="app_name"
+    Nombre con el que se conoce al texto. Desde otros archivos, donde
+    aparece @string/app_name, se sustituye por el contenido indicado aquí,
+    que es Amens. -->
+  <string name="app_name">Amens</string>
+  <string name="hola">Hola</string>
+</resources>
