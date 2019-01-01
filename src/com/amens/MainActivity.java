@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
    * mínimo que debe hacer es asociar una vista. */
   protected void onCreate(Bundle savedInstanceState) {
     /* Invoca la versión de este evento que está definida en la clase
-    ¨* madre AppCompatActivity. Muchos de los métodos que se sobreescriben
+     * madre AppCompatActivity. Muchos de los métodos que se sobreescriben
      * en Android, deben invocar la versión de la superclase. */
     super.onCreate(savedInstanceState);
     /* Asigna la vista de esta activity. La clase R se genera
