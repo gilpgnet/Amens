@@ -2,7 +2,7 @@
 
 rem Configuración
 SET ANDROID_SDK=C:\AndroidSdk
-SET CUENTA=gil
+SET CUENTA=desarrollo
 SET APP_NAME=Amens
 SET DIR_APP=com\amens
 SET APP=com.amens/.MainActivity
@@ -24,7 +24,7 @@ echo "Generando R.java..."
 call aapt package -m -f -I %PLATFORM% -M AndroidManifest.xml -S res -J gen -F bin\%APP_NAME%.noalineado.apk
 
 echo "Compilando..."
-call %JAVA_HOME%\bin\javac -bootclasspath %PLATFORM% -sourcepath "src;gen" -d bin src\%DIR_APP%\*.java  gen\%DIR_APP%\*.java
+call "%JAVA_HOME%\bin\javac" -bootclasspath %PLATFORM% -sourcepath "src;gen" -d bin src\%DIR_APP%\*.java  gen\%DIR_APP%\*.java
 
 echo "Traduciendo bytecode Dalvik..."
 call dx --dex --output=classes.dex bin
