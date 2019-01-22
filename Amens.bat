@@ -47,5 +47,3 @@ rmdir /S /Q bin
 echo "Ejecutando..."
 call adb install -r %APP_NAME%.apk
 call adb shell am start -n %APP%
-
-pause
