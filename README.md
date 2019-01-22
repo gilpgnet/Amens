@@ -3,7 +3,7 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
 
 ## Ejecución
 1. Prepara el dispositivo para ejecutar la app. Aquí se plantean 3 opciones:
-   * [**Emulador Memu.**](https://www.memuplay.com/) Ejecuta el programa y desde una terminal teclea el siguiente comando.
+   * [**Emulador Memu.**](https://www.memuplay.com/) Levanta el emulador y desde una terminal teclea el siguiente comando.
   
      ```Batchfile
         call adb connect 127.0.0.1:21503
