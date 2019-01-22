@@ -2,7 +2,7 @@
 
 rem Configuración
 SET ANDROID_SDK=C:\AndroidSdk
-SET CUENTA=desarrollo
+SET CUENTA=pon_tu_cuenta
 SET APP_NAME=Amens
 SET DIR_APP=com\amens
 SET APP=com.amens/.MainActivity
