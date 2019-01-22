@@ -16,8 +16,8 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
      ```
   
    * **Dispositivo externo en modo desarrollador.** Conecta el dispositivo por USB a tu computadora. Si usas Windows 10, está listo.
-     Si es una versión menor, necesitas descargar el driver para tu teléfono del sitio del fabricante de este último, instalarlo
-     y luego conectar tu dispositivo.
+     Si es una versión menor, necesitas descargar el driver para tu teléfono del sitio del fabricante, instalarlo y luego conectar tu
+     dispositivo.
   
 2. Abre una terminal y cámbiate a la carpeta del ejemplo descompactado. Por ejemplo, si descompactas el proyecto en la carpeta
    _C:\ejemplos_, introduce el comando
