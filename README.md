@@ -9,13 +9,13 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
         call adb connect 127.0.0.1:21503
      ```
   
-   * **Emulador normal**.  Levanta el emulador y desde una terminal teclea el siguiente comando.
+   * **Emulador normal.**  Levanta el emulador y desde una terminal teclea el siguiente comando.
   
      ```Batchfile
         call adb connect 127.0.0.1
      ```
   
-   * **Dispositivo externo** en modo desarrollador. Conecta el dispositivo por USB a tu computadora. Si usas Windows 10, está listo.
+   * **Dispositivo externo en modo desarrollador.** Conecta el dispositivo por USB a tu computadora. Si usas Windows 10, está listo.
      Si es una versión menor, necesitas descargar el driver para tu teléfono del sitio del fabricante de este último, instalarlo
      y luego conectar tu dispositivo.
   
