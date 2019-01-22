@@ -26,6 +26,9 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
    ```
   
 3. Ejecuta el comando
+   ```Batchfile
+        call Amens
+   ```
 
 4. Si la aplicación aborta inesperadamente, introduce el siguiente comando
    ```Batchfile
