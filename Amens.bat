@@ -2,16 +2,12 @@
 
 rem Configuración
 SET ANDROID_SDK=C:\AndroidSdk
-SET JDK=C:\Program Files\Java\jdk1.8.0_191\bin
 SET CUENTA=gil
 SET APP_NAME=Amens
 SET DIR_APP=com\amens
 SET APP=com.amens/.MainActivity
 
 rem rutas
-PATH=%JDK%;%PATH%
-PATH=%ANDROID_SDK%\platform-tools;%PATH%
-PATH=%ANDROID_SDK%\build-tools\27.0.3;%PATH%
 SET PLATFORM="%ANDROID_SDK%\platforms\android-27\android.jar"
 SET KEY_STORE=C:\Users\%CUENTA%\.android\debug.keystore
 
@@ -29,7 +25,7 @@ call aapt package -m -f -I %PLATFORM% -M AndroidManifest.xml -S res ^
   -J gen -F bin\%APP_NAME%.noalineado.apk
 
 echo "Compilando..."
-call javac -bootclasspath %PLATFORM% -sourcepath "src;gen" -d bin ^
+call %JAVA_HOME%\bin\javac -bootclasspath %PLATFORM% -sourcepath "src;gen" -d bin ^
   src\%DIR_APP%\*.java  gen\%DIR_APP%\*.java
 
 echo "Traduciendo bytecode Dalvik..."
