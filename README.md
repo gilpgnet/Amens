@@ -26,6 +26,10 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
    ```
   
 3. Ejecuta el comando
+
+4. Si la aplicación aborta inesperadamente, introduce el siguiente comando
    ```Batchfile
-        call Amens
+        call adb logcat > logcat.txt
    ```
+   
+   Revisa el contenido del archivo _logcat.txt_. Es algo largo, pero revísalo desde el final hacia el inicio.
