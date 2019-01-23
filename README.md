@@ -2,7 +2,7 @@
 App sencilla para Android que muestra mensajes. Usa Android SDK.
 
 ## Ejecución en Windows
-1. Modifica la línea 5 del archivo _Amens.bat_ y pon el nombre de la carpeta de tu cuenta a la variable **CUENTA**.
+1. Modifica la línea 5 del archivo _Amens.bat_ y asigna el nombre de la carpeta de tu cuenta a la variable **CUENTA**.
 2. Abre el Símbolo del Sistema (cmd).
 3. Prepara el dispositivo para ejecutar la app. Aquí se plantean 3 opciones:
    * [**Emulador Memu.**](https://www.memuplay.com/) Levanta el emulador y desde una terminal teclea el siguiente comando.
