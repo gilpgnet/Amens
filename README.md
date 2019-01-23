@@ -31,6 +31,7 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
    ```Batchfile
         call Amens
    ```
+   Si solicita una contraseña, usa **android**.
 
 6. Si la aplicación aborta inesperadamente, introduce el siguiente comando
    ```Batchfile
