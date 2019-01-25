@@ -2,7 +2,7 @@
 App sencilla para Android que muestra mensajes. Usa Android SDK.
 
 Si tu computadora presenta problemas para compilar o ejecutar el código, puedes probar la versión para
-[AIDE IDE](https://github.com/gilpgnet/AideMens).
+AIDE IDE: https://github.com/gilpgnet/AideMens.
 
 ## Estructura
 - **res** contiene archivos en formato xml e imágenes
