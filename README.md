@@ -4,6 +4,19 @@ App sencilla para Android que muestra mensajes. Usa Android SDK.
 Si tu computadora presenta problemas para compilar o ejecutar el código, puedes probar la versión para
 [AIDE IDE](https://github.com/gilpgnet/AideMens).
 
+## Estructura
+* res - contiene archivos en formato xml e imágenes
+  * layout - almacena las interfaces gráficas, también conocidas como vistas, en formato xml
+    * activity_main.xml
+  * values
+        * strings.xml
+* src - contiene paquetes con código fuente. Debe tener al menos dos niveles antes de los archivos java.
+  * com
+    * test
+      * MainActivity.java
+* AndroidManifest.xml
+* Amena.bat
+
 ## Ejecución en Windows
 Las instrucciones que siguen te muestran como ejecutar el código desde Windows. Si deseas ver como ejecutarlo desde VS Code, cliquea [aquí](https://drive.google.com/open?id=1wPL3nJTATd5CVBspXRgYBxc-wG-W-GE91_XbgH4HsBo)
 1. Modifica la línea 5 del archivo _Amens.bat_ y asigna el nombre de la carpeta de tu cuenta a la variable **CUENTA**.
