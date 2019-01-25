@@ -42,4 +42,5 @@ Las instrucciones que siguen te muestran como ejecutar el código desde Windows.
         call adb logcat > logcat.txt
    ```
    
-   Revisa el contenido del archivo _logcat.txt_. Es algo largo, pero revísalo desde el final hacia el inicio.
+   Teclea CTRL+C para terminar el comando. Revisa el contenido del archivo _logcat.txt_. Es algo largo, pero revísalo desde el final
+   hacia el inicio.
