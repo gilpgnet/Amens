@@ -5,6 +5,7 @@ Si tu computadora presenta problemas para compilar o ejecutar el código, puedes
 [AIDE IDE](https://github.com/gilpgnet/AideMens).
 
 ## Ejecución en Windows
+Las instrucciones que siguen te muestran como ejecutar el código desde Windows. Si deseas ver como ejecutarlo desde VS Code, cliquea [aquí](https://drive.google.com/open?id=1wPL3nJTATd5CVBspXRgYBxc-wG-W-GE91_XbgH4HsBo)
 1. Modifica la línea 5 del archivo _Amens.bat_ y asigna el nombre de la carpeta de tu cuenta a la variable **CUENTA**.
 2. Abre el Símbolo del Sistema (cmd).
 3. Prepara el dispositivo para ejecutar la app. Aquí se plantean 3 opciones:
