@@ -7,11 +7,14 @@ Si tu computadora presenta problemas para compilar o ejecutar el código, puedes
 ## Estructura
 * res - contiene archivos en formato xml e imágenes
     * layout - almacena las interfaces gráficas, también conocidas como vistas, en formato xml
+    
           * [activity_main.xml](/res/layout/activity_main.xml)
     * values
+    
           * [strings.xml](/res/values/strings.xml)
 * src - contiene paquetes con código fuente. Debe tener al menos dos niveles antes de los archivos java.
     * com
+    
           * amens
                 * [MainActivity.java](/src/com/amens/MainActivity.java)
 * [AndroidManifest.xml](/AndroidManifest.xml)
