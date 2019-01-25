@@ -1,6 +1,9 @@
 # Amens
 App sencilla para Android que muestra mensajes. Usa Android SDK.
 
+Si tu computadora presenta problemas para compilar o ejecutar el código, puedes probar la versión para
+[AIDE IDE](https://github.com/gilpgnet/AideMens).
+
 ## Ejecución en Windows
 1. Modifica la línea 5 del archivo _Amens.bat_ y asigna el nombre de la carpeta de tu cuenta a la variable **CUENTA**.
 2. Abre el Símbolo del Sistema (cmd).
