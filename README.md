@@ -6,16 +6,16 @@ Si tu computadora presenta problemas para compilar o ejecutar el código, puedes
 
 ## Estructura
 * res - contiene archivos en formato xml e imágenes
-  * layout - almacena las interfaces gráficas, también conocidas como vistas, en formato xml
-    * activity_main.xml
-  * values
-        * strings.xml
+    * layout - almacena las interfaces gráficas, también conocidas como vistas, en formato xml
+          * [activity_main.xml](/res/layout/activity_main.xml)
+    * values
+          * [strings.xml](/res/values/strings.xml)
 * src - contiene paquetes con código fuente. Debe tener al menos dos niveles antes de los archivos java.
-  * com
-    * test
-      * MainActivity.java
-* AndroidManifest.xml
-* Amena.bat
+    * com
+          * amens
+                * [MainActivity.java](/src/com/amens/MainActivity.java)
+* [AndroidManifest.xml](/AndroidManifest.xml)
+* [Amens.bat](/Amens.bat)
 
 ## Ejecución en Windows
 Las instrucciones que siguen te muestran como ejecutar el código desde Windows. Si deseas ver como ejecutarlo desde VS Code, cliquea [aquí](https://drive.google.com/open?id=1wPL3nJTATd5CVBspXRgYBxc-wG-W-GE91_XbgH4HsBo)
