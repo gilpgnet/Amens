@@ -14,8 +14,8 @@ Si tu computadora presenta problemas para compilar o ejecutar el código, puedes
   - **com**
     - **amens**
       - **[MainActivity.java](/src/com/amens/MainActivity.java)**
-- **[AndroidManifest.xml](/AndroidManifest.xml)
-- **[Amens.bat](/Amens.bat)
+- **[AndroidManifest.xml](/AndroidManifest.xml)**
+- **[Amens.bat](/Amens.bat)**
 
 ## Ejecución en Windows
 Las instrucciones que siguen te muestran como ejecutar el código desde Windows. Si deseas ver como ejecutarlo desde VS Code, cliquea [aquí](https://drive.google.com/open?id=1wPL3nJTATd5CVBspXRgYBxc-wG-W-GE91_XbgH4HsBo)
